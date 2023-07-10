@@ -1,15 +1,17 @@
 import { useState } from 'react'
-import './App.css'
+import './App.scss'
+import Post from './components/Post/post'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="card">
+      <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Post />
       </div>
     </>
   )

@@ -14,10 +14,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+} */
+
+@media screen and (min-width: 600px) {
+  #post-component {
+    width: 60vw;
+  }
+
+  .image-post {
+    width: 80%;
+  }
 }

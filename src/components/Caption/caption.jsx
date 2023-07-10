@@ -3,7 +3,7 @@ import './caption.scss';
 export default function Caption() {
     return (
         <>
-            <div>
+            <div id='caption-component'>
                 this is a Caption component.
             </div>
         </>

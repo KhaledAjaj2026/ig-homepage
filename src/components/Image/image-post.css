@@ -1,4 +1,18 @@
+#image-post_component {
+  background-color: #212326;
+}
+
 .image-post {
-  border: 1px solid red;
   width: 100%;
+}
+
+hr {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  hr {
+    margin-top: -1em;
+    display: none;
+  }
 }/*# sourceMappingURL=image-post.css.map */

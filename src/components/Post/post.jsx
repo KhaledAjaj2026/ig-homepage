@@ -7,10 +7,12 @@ import ImagePost from '../Image/image-post';
 export default function Post() {
     return (
         <>
-            <Account />
-            <ImagePost />
-            <Caption />
-            <Interactions />
+            <div id="post-component">
+                <Account />
+                <ImagePost />
+                <Caption />
+                <Interactions />
+            </div>
         </>
     )
 }

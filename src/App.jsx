@@ -1,16 +1,17 @@
-import { useState } from 'react'
 import './App.scss'
 import Post from './components/Post/post'
 
-function App() {
-  const [count, setCount] = useState(0)
+/*
+import image1 from './assets/prof-pic_1.jpeg';
+import image2 from './assets/prof-pic_2.jpeg';
+import image3 from './assets/prof-pic_3.jpg';
+import image4 from './assets/prof-pic_4.jpg';
+*/
 
+function App() {
   return (
     <>
       <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <Post />
       </div>
     </>

@@ -13,6 +13,9 @@ function App() {
     <>
       <div>
         <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
     </>
   )

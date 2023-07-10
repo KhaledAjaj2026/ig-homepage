@@ -1,0 +1,14 @@
+#account-component {
+    display: flex;
+    place-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.prof-pic {
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.username {
+    margin-left: 20px;
+}

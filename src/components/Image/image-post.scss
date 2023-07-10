@@ -3,16 +3,9 @@
 }
 
 .image-post {
-    width: 100%;
+    width: 80%;
 }
 
 hr {
     margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-    hr {
-        margin-top: -1em;
-        display: none;
-    }
 }

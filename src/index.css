@@ -24,10 +24,20 @@
 
 @media screen and (min-width: 600px) {
   #post-component {
-    width: 60vw;
+    width: 70vw;
   }
 
   .image-post {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-post {
+    width: 100%;
+  }
+  
+  hr {
+      display: none;
   }
 }

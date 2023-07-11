@@ -1,11 +1,12 @@
 import './caption.scss';
+import postInfo from '../../posts.json';
 
 export default function Caption() {
     return (
         <>
             <div id='caption-component'>
                 <hr className='caption-bar' />
-                <p className="caption">this dragin I drew with my bare hands.<br /><br />#drwaing #dragins #art</p>
+                <p className="caption">{postInfo.post1.caption}</p>
             </div>
         </>
     )

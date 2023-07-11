@@ -5,7 +5,7 @@ export default function ImagePost() {
         <>
             <div id='image-post_component'>
                 <hr className='image-bar' />
-                <img className='image-post' src="src/assets/prof-pic_4.jpg" alt="" />
+                <img className='image-post' src="src/assets/post1-imagePost.jpeg" alt="" />
                 <hr className='image-bar' />
             </div>
         </>

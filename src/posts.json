@@ -1,0 +1,42 @@
+{
+    "post1": {
+        "id": "post-1",
+        "username": "john_odinson_",
+        "profile-pic": "src/assets/prof-pic_2.jpeg",
+        "posted-image": "src/assets/post1-imagePost.jpeg",
+        "likes": 23961,
+        "shares": 0,
+        "saved": false,
+        "caption": "I love my dog Heimdaal. He is the best dog anyone could ask for. He even makes me dinner sometimes; yesterday was fois gras and the other day was a perfect, medium-rare NY steak. Now that I think about it, my wallet has been empty as of late..."
+    },
+    "post2": {
+        "id": "post-2",
+        "username": "",
+        "profile-pic": "",
+        "posted-image": "",
+        "likes": 12,
+        "shares": 0,
+        "saved": false,
+        "caption": ""
+    },
+    "post3": {
+        "id": "post-3",
+        "username": "",
+        "profile-pic": "",
+        "posted-image": "",
+        "likes": 683,
+        "shares": 0,
+        "saved": false,
+        "caption": ""
+    },
+    "post4": {
+        "id": "post-4",
+        "username": "",
+        "profile-pic": "",
+        "posted-image": "",
+        "likes": 781234,
+        "shares": 0,
+        "saved": false,
+        "caption": ""
+    }
+}

@@ -10,8 +10,8 @@ export default function Post() {
             <div id="post-component">
                 <Account />
                 <ImagePost />
-                <Caption />
                 <Interactions />
+                <Caption />
             </div>
         </>
     )

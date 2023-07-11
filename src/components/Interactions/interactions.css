@@ -1,1 +1,11 @@
-/*# sourceMappingURL=interactions.css.map */
+#interactions-component {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.like-button {
+  width: 30px;
+  height: 30px;
+  margin: auto 10px;
+}/*# sourceMappingURL=interactions.css.map */

@@ -4,7 +4,8 @@ export default function Caption() {
     return (
         <>
             <div id='caption-component'>
-                this is a Caption component.
+                <hr className='caption-bar' />
+                <p className="caption">this dragin I drew with my bare hands.<br /><br />#drwaing #dragins #art</p>
             </div>
         </>
     )

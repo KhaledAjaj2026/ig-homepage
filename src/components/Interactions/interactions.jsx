@@ -6,12 +6,10 @@ export default function Interactions() {
 
     return (
         <>
-            <div>
-                this is an Interactions component.
+            <div id='interactions-component'>
+                <button className='like-button' onClick={() => setCount((count) => count + 1)}>❤️</button>
+                <p className="likes-count">{count} Likes</p>
             </div>
-            <button onClick={() => setCount((count) => count + 1)}>
-                count is {count}
-            </button>
         </>
     )
 }

@@ -3,9 +3,11 @@
 }
 
 .image-post {
+  margin-bottom: -6px;
   width: 80%;
 }
 
 hr {
   margin: 0;
+  border: 0.5px solid rgba(242, 242, 242, 0.8705882353);
 }/*# sourceMappingURL=image-post.css.map */

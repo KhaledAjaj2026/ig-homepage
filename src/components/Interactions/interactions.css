@@ -3,9 +3,6 @@
   display: flex;
   align-items: center;
 }
-
-.like-button {
-  width: 30px;
-  height: 30px;
-  margin: auto 10px;
+#interactions-component p {
+  margin: auto 5px;
 }/*# sourceMappingURL=interactions.css.map */

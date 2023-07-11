@@ -22,6 +22,18 @@ body {
   min-height: 100vh;
 }
 
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: auto 7px;
+  background-color: #415e6c;
+  border-style: none;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
   #post-component {
     width: 70vw;

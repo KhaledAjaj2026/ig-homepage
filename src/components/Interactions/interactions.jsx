@@ -45,5 +45,5 @@ export default function Interactions({ post }) {
 }
 
 Interactions.propTypes = {
-    post: PropTypes.node.isRequired,
+    post: PropTypes.object.isRequired,
 }

@@ -13,5 +13,5 @@ export default function Account({ post }) {
 }
 
 Account.propTypes = {
-  post: PropTypes.node.isRequired,
+  post: PropTypes.object.isRequired,
 };

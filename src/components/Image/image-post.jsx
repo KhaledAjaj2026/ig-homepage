@@ -14,5 +14,5 @@ export default function ImagePost({ post }) {
 }
 
 ImagePost.propTypes = {
-  post: PropTypes.node.isRequired,
+  post: PropTypes.object.isRequired,
 };

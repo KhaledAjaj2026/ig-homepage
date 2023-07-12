@@ -13,5 +13,5 @@ export default function Caption({ post }) {
 }
 
 Caption.propTypes = {
-    post: PropTypes.node.isRequired,
+    post: PropTypes.object.isRequired,
 }

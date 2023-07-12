@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './interactions.scss';
-import postInfo from '../../posts.json';
+import PropTypes from 'prop-types';
 
-export default function Interactions() {
-    const [likes, setLikes] = useState(postInfo.post1.likes);
-    const [shares, setShares] = useState(postInfo.post1.shares);
-    const [save, setSave] = useState(postInfo.post1.saved);
+export default function Interactions({ post }) {
+    const [likes, setLikes] = useState(post.likes);
+    const [shares, setShares] = useState(post.shares);
+    const [save, setSave] = useState(post.saved);
 
     function savedPost() {
         if (save === false) {
@@ -42,4 +42,8 @@ export default function Interactions() {
             </div>
         </>
     )
+}
+
+Interactions.propTypes = {
+    post: PropTypes.node.isRequired,
 }

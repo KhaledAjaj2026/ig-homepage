@@ -1,21 +1,15 @@
 import './App.scss'
 import Post from './components/Post/post'
-
-/*
-import image1 from './assets/prof-pic_1.jpeg';
-import image2 from './assets/prof-pic_2.jpeg';
-import image3 from './assets/prof-pic_3.jpg';
-import image4 from './assets/prof-pic_4.jpg';
-*/
+import postInfo from './posts.json';
 
 function App() {
   return (
     <>
       <div>
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post post={postInfo.post1} />
+        <Post post={postInfo.post2} />
+        <Post post={postInfo.post3} />
+        <Post post={postInfo.post4} />
       </div>
     </>
   )

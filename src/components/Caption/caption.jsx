@@ -1,13 +1,17 @@
 import './caption.scss';
-import postInfo from '../../posts.json';
+import PropTypes from 'prop-types';
 
-export default function Caption() {
+export default function Caption({ post }) {
     return (
         <>
             <div id='caption-component'>
                 <hr className='caption-bar' />
-                <p className="caption">{postInfo.post1.caption}</p>
+                <p className="caption">{post.caption}</p>
             </div>
         </>
     )
+}
+
+Caption.propTypes = {
+    post: PropTypes.node.isRequired,
 }

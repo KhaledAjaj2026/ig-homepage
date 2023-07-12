@@ -4,8 +4,8 @@ import postInfo from '../../posts.json';
 
 export default function Interactions() {
     const [likes, setLikes] = useState(postInfo.post1.likes);
-    const [shares, setShares] = useState(0);
-    const [save, setSave] = useState(false);
+    const [shares, setShares] = useState(postInfo.post1.shares);
+    const [save, setSave] = useState(postInfo.post1.saved);
 
     function savedPost() {
         if (save === false) {

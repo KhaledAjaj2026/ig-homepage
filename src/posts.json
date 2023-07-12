@@ -1,42 +1,42 @@
 {
     "post1": {
         "id": "post-1",
-        "username": "john_odinson_",
-        "profile-pic": "src/assets/prof-pic_2.jpeg",
+        "username": "jane_odinson_",
+        "profile-pic": "src/assets/prof-pic_1.jpg",
         "posted-image": "src/assets/post1-imagePost.jpeg",
         "likes": 23961,
-        "shares": 0,
+        "shares": 114,
         "saved": false,
-        "caption": "I love my dog Heimdaal. He is the best dog anyone could ask for. He even makes me dinner sometimes; yesterday was fois gras and the other day was a perfect, medium-rare NY steak. Now that I think about it, my wallet has been empty as of late..."
+        "caption": "I love my dog Heimdaal. He is the best dog anyone could ask for. He even drives me to work and shops for groceries.\n#dog #terrier"
     },
     "post2": {
         "id": "post-2",
-        "username": "",
-        "profile-pic": "",
-        "posted-image": "",
+        "username": "art4L1fe2006",
+        "profile-pic": "src/assets/prof-pic_2.png",
+        "posted-image": "src/assets/post2-imagePost.png",
         "likes": 12,
         "shares": 0,
-        "saved": false,
-        "caption": ""
+        "saved": true,
+        "caption": "drew this after playing DOOM Eternal. Really like the design philosphy compared to 2016, going for the classic game's look over realism.\n\n#art #drawing #doomart"
     },
     "post3": {
         "id": "post-3",
-        "username": "",
-        "profile-pic": "",
-        "posted-image": "",
+        "username": "xxX-G4meB0yAdv4nce-Xxx",
+        "profile-pic": "src/assets/prof-pic_3.jpeg",
+        "posted-image": "src/assets/post3-imagePost.jpeg",
         "likes": 683,
-        "shares": 0,
-        "saved": false,
-        "caption": ""
+        "shares": 92,
+        "saved": true,
+        "caption": "SOMEONE JOIN LOBBY IMMA BOUTA GET SNAPPED IN HALF!!!! Fun game tho 👍\n#HELP #GOW5"
     },
     "post4": {
         "id": "post-4",
-        "username": "",
-        "profile-pic": "",
-        "posted-image": "",
+        "username": "user1278361",
+        "profile-pic": "src/assets/prof-pic_4.jpeg",
+        "posted-image": "src/assets/post4-imagePost.jpeg",
         "likes": 781234,
-        "shares": 0,
+        "shares": 5916,
         "saved": false,
-        "caption": ""
+        "caption": "Just bought a new car, thought I'd share. Anyone want a ride hit me up in DMs.\n#cars #mursaydeez #driving"
     }
 }

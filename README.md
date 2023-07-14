@@ -15,6 +15,6 @@ Deliberately separated parts of a post into components to learn about child comp
 
 ## Deployment
 
-This site was deployed using [github pages](https://pages.github.com/).
+This site was deployed using [github pages](https://pages.github.com/). Click [here](https://khaledajaj2026.github.io/ig-homepage/) to visit site.
 
 This site was built using [Vite](https://vitejs.dev/).
